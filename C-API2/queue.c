@@ -107,8 +107,6 @@ void queue_back(const char *str, char *dest){
 	dest[j] = '\0';
 }
 
-/* Стек */ 
-
 
 /**
 Определение объектов Python
