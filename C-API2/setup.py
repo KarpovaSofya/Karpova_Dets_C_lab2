@@ -1,8 +1,9 @@
+
 from distutils.core import setup, Extension
 
-module1 = Extension('queue_functions', sources = ['queue_functions.c'])
+module1 = Extension('queue', sources = ['queue.c'])
 
-setup (name = 'queue_functions',
+setup (name = 'queue',
 	version = '1.1',
-	description = 'Модуль для работы с очередями',
+	description = 'Queuing module ',
 	ext_modules = [module1])
